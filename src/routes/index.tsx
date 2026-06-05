@@ -43,7 +43,7 @@ function Home() {
               <Sparkles className="h-3.5 w-3.5 text-gold" />
               4+ Years · 5000+ Approvals
             </div>
-            <h1 className="mt-6 font-display text-5xl sm:text-6xl lg:text-7xl leading-[0.95] tracking-tight text-balance">
+            <h1 className="mt-6 font-display text-4xl sm:text-5xl lg:text-5xl leading-[0.95] tracking-tight text-balance">
               We don't build <span className="italic text-gold">clients.</span>
               <br />
               We build <span className="italic text-gold">families.</span>
@@ -114,7 +114,7 @@ function Home() {
           <div className="overflow-hidden">
             <div className="flex gap-16 py-6 animate-marquee-x whitespace-nowrap">
               {[...COUNTRIES, ...COUNTRIES, ...COUNTRIES].map((c, i) => (
-                <span key={i} className="font-display text-3xl md:text-4xl text-foreground/60">
+                <span key={i} className="font-display text-2xl md:text-4xl text-foreground/60">
                   {c} <span className="text-gold mx-6">✦</span>
                 </span>
               ))}
@@ -179,9 +179,9 @@ function Home() {
       <section className="relative py-24">
         <div className="absolute inset-0 bg-plum opacity-80" />
         <div className="absolute inset-0 grain" />
-        <div className="relative mx-auto max-w-4xl px-6 text-center">
+        <div className="relative mx-auto max-w-4xl px-4 text-center">
           <p className="font-display italic text-gold/90 text-lg">— a quiet promise</p>
-          <h2 className="mt-4 font-display text-4xl md:text-6xl leading-[1.05] text-balance">
+          <h2 className="mt-4 font-display text-3xl md:text-6xl leading-[1.05] text-balance">
             "<span className="text-gold">Pride</span> in the process, <span className="text-gold">Integrity</span> in every file."
           </h2>
           <div className="mt-10 flex justify-center">

@@ -11,12 +11,12 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/60 border-b border-border">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
+      <div className="mx-auto max-w-5xl px-6 lg:px-10 h-18 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
           <img
             src={logo}
             alt="Visa Lane Logo"
-            className="h-18 w-18 rounded-full object-cover border border-gold/30 shadow-glow"
+            className="h-15 w-15 rounded-full object-cover border border-gold/30 shadow-glow"
           />
           <span className="font-display text-xl tracking-tight">
             {SITE.name}

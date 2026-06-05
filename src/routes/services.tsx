@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { BookButton } from "@/components/BookButton";
 import { GraduationCap, Briefcase, Home, Users, Plane, FileCheck } from "lucide-react";
-
+import servicesBg from "@/assets/service-bg.png";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
@@ -32,8 +32,17 @@ const SERVICES = [
 function Services() {
   return (
     <>
-      <section className="relative pt-20 pb-16 lg:pt-28">
-        <div className="absolute inset-0 bg-aurora opacity-60" />
+      <section className="relative pt-20 pb-16 lg:pt-28 overflow-hidden">
+
+  <img
+    src={servicesBg}
+    alt=""
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  <div className="absolute inset-0 bg-black/60" />
+
+  <div className="absolute inset-0 bg-aurora opacity-40" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
           <div className="text-xs uppercase tracking-[0.24em] text-gold">Services</div>
           <h1 className="mt-4 font-display text-5xl md:text-7xl leading-[0.95] tracking-tight max-w-4xl text-balance">
